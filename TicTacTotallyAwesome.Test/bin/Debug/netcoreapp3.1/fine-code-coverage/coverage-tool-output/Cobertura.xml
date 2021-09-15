@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9629629629629629" branch-rate="0.9285714285714286" lines-covered="156" lines-valid="162" branches-covered="52" branches-valid="56" complexity="64" version="0" timestamp="1628760325">
+  <sources>
+    <source>C:\Users\matt.hudson\</source>
+  </sources>
+  <packages>
+    <package name="TicTacTotallyAwesome" line-rate="0.9484536082474226" branch-rate="0.9285714285714286" complexity="56">
+      <classes>
+        <class name="TicTacTotallyAwesome.EnumExtensions" filename="C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\Program.cs" line-rate="0.8333333333333334" branch-rate="0.5" complexity="6">
+          <methods>
+            <method name="GetDescription" signature="(...)" line-rate="0.8333333333333334" branch-rate="0.5" complexity="6">
+              <lines>
+                <line number="34" hits="12" branch="false" />
+                <line number="35" hits="12" branch="false" />
+                <line number="36" hits="12" branch="false" />
+                <line number="37" hits="12" branch="true" condition-coverage="50% (1/2)" />
+                <line number="38" hits="12" branch="false" />
+                <line number="39" hits="12" branch="false" />
+                <line number="40" hits="12" branch="true" condition-coverage="50% (1/2)" />
+                <line number="41" hits="12" branch="false" />
+                <line number="42" hits="12" branch="false" />
+                <line number="43" hits="12" branch="false" />
+                <line number="44" hits="12" branch="false" />
+                <line number="45" hits="12" branch="true" condition-coverage="50% (1/2)" />
+                <line number="46" hits="12" branch="false" />
+                <line number="47" hits="12" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="34" hits="12" branch="false" />
+            <line number="35" hits="12" branch="false" />
+            <line number="36" hits="12" branch="false" />
+            <line number="37" hits="12" branch="true" condition-coverage="50% (1/2)" />
+            <line number="38" hits="12" branch="false" />
+            <line number="39" hits="12" branch="false" />
+            <line number="40" hits="12" branch="true" condition-coverage="50% (1/2)" />
+            <line number="41" hits="12" branch="false" />
+            <line number="42" hits="12" branch="false" />
+            <line number="43" hits="12" branch="false" />
+            <line number="44" hits="12" branch="false" />
+            <line number="45" hits="12" branch="true" condition-coverage="50% (1/2)" />
+            <line number="46" hits="12" branch="false" />
+            <line number="47" hits="12" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="12" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacTotallyAwesome.TicTacToe" filename="C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\Program.cs" line-rate="0.9746835443037974" branch-rate="0.98" complexity="50">
+          <methods>
+            <method name="CalculateWinner" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="69" hits="12" branch="false" />
+                <line number="70" hits="12" branch="true" condition-coverage="100% (2/2)" />
+                <line number="71" hits="10" branch="false" />
+                <line number="72" hits="10" branch="false" />
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="78" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="DiagonalWinner" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="81" hits="10" branch="false" />
+                <line number="82" hits="10" branch="false" />
+                <line number="83" hits="10" branch="true" condition-coverage="100% (8/8)" />
+                <line number="84" hits="10" branch="false" />
+                <line number="85" hits="2" branch="false" />
+                <line number="86" hits="2" branch="false" />
+                <line number="88" hits="8" branch="false" />
+                <line number="89" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="ColumnWinner" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="92" hits="6" branch="false" />
+                <line number="93" hits="26" branch="true" condition-coverage="100% (2/2)" />
+                <line number="94" hits="11" branch="false" />
+                <line number="95" hits="11" branch="false" />
+                <line number="96" hits="11" branch="true" condition-coverage="100% (6/6)" />
+                <line number="97" hits="4" branch="false" />
+                <line number="98" hits="4" branch="false" />
+                <line number="100" hits="4" branch="false" />
+                <line number="102" hits="7" branch="false" />
+                <line number="103" hits="2" branch="false" />
+                <line number="104" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="RowWinner" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="108" hits="10" branch="false" />
+                <line number="109" hits="146" branch="true" condition-coverage="100% (2/2)" />
+                <line number="110" hits="67" branch="false" />
+                <line number="111" hits="67" branch="true" condition-coverage="100% (6/6)" />
+                <line number="112" hits="4" branch="false" />
+                <line number="113" hits="4" branch="false" />
+                <line number="114" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="119" hits="3" branch="false" />
+                <line number="121" hits="3" branch="false" />
+                <line number="123" hits="63" branch="false" />
+                <line number="124" hits="6" branch="false" />
+                <line number="125" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="WinnerXorO" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="128" hits="9" branch="false" />
+                <line number="129" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="130" hits="5" branch="false" />
+                <line number="131" hits="5" branch="false" />
+                <line number="133" hits="4" branch="false" />
+                <line number="134" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="IsGameTied" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="137" hits="2" branch="false" />
+                <line number="138" hits="2" branch="false" />
+                <line number="139" hits="40" branch="true" condition-coverage="100% (2/2)" />
+                <line number="140" hits="18" branch="false" />
+                <line number="141" hits="18" branch="true" condition-coverage="100% (4/4)" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="145" hits="18" branch="false" />
+                <line number="147" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="148" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+                <line number="152" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="ConvertInputLineToCellStateArray" signature="(...)" line-rate="0.8461538461538461" branch-rate="0.9" complexity="10">
+              <lines>
+                <line number="155" hits="12" branch="false" />
+                <line number="156" hits="12" branch="true" condition-coverage="50% (1/2)" />
+                <line number="157" hits="0" branch="false" />
+                <line number="158" hits="0" branch="false" />
+                <line number="161" hits="12" branch="false" />
+                <line number="163" hits="252" branch="true" condition-coverage="100% (2/2)" />
+                <line number="164" hits="108" branch="false" />
+                <line number="165" hits="154" branch="true" condition-coverage="100% (2/2)" />
+                <line number="166" hits="145" branch="true" condition-coverage="100% (2/2)" />
+                <line number="167" hits="133" branch="true" condition-coverage="100% (2/2)" />
+                <line number="168" hits="108" branch="false" />
+                <line number="170" hits="12" branch="false" />
+                <line number="171" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="Main" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="174" hits="12" branch="false" />
+                <line number="177" hits="24" branch="true" condition-coverage="100% (2/2)" />
+                <line number="178" hits="12" branch="false" />
+                <line number="179" hits="12" branch="false" />
+                <line number="180" hits="12" branch="false" />
+                <line number="181" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="69" hits="12" branch="false" />
+            <line number="70" hits="12" branch="true" condition-coverage="100% (2/2)" />
+            <line number="71" hits="10" branch="false" />
+            <line number="72" hits="10" branch="false" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="78" hits="12" branch="false" />
+            <line number="81" hits="10" branch="false" />
+            <line number="82" hits="10" branch="false" />
+            <line number="83" hits="10" branch="true" condition-coverage="100% (8/8)" />
+            <line number="84" hits="10" branch="false" />
+            <line number="85" hits="2" branch="false" />
+            <line number="86" hits="2" branch="false" />
+            <line number="88" hits="8" branch="false" />
+            <line number="89" hits="10" branch="false" />
+            <line number="92" hits="6" branch="false" />
+            <line number="93" hits="26" branch="true" condition-coverage="100% (2/2)" />
+            <line number="94" hits="11" branch="false" />
+            <line number="95" hits="11" branch="false" />
+            <line number="96" hits="11" branch="true" condition-coverage="100% (6/6)" />
+            <line number="97" hits="4" branch="false" />
+            <line number="98" hits="4" branch="false" />
+            <line number="100" hits="4" branch="false" />
+            <line number="102" hits="7" branch="false" />
+            <line number="103" hits="2" branch="false" />
+            <line number="104" hits="6" branch="false" />
+            <line number="108" hits="10" branch="false" />
+            <line number="109" hits="146" branch="true" condition-coverage="100% (2/2)" />
+            <line number="110" hits="67" branch="false" />
+            <line number="111" hits="67" branch="true" condition-coverage="100% (6/6)" />
+            <line number="112" hits="4" branch="false" />
+            <line number="113" hits="4" branch="false" />
+            <line number="114" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="119" hits="3" branch="false" />
+            <line number="121" hits="3" branch="false" />
+            <line number="123" hits="63" branch="false" />
+            <line number="124" hits="6" branch="false" />
+            <line number="125" hits="10" branch="false" />
+            <line number="128" hits="9" branch="false" />
+            <line number="129" hits="9" branch="true" condition-coverage="100% (2/2)" />
+            <line number="130" hits="5" branch="false" />
+            <line number="131" hits="5" branch="false" />
+            <line number="133" hits="4" branch="false" />
+            <line number="134" hits="9" branch="false" />
+            <line number="137" hits="2" branch="false" />
+            <line number="138" hits="2" branch="false" />
+            <line number="139" hits="40" branch="true" condition-coverage="100% (2/2)" />
+            <line number="140" hits="18" branch="false" />
+            <line number="141" hits="18" branch="true" condition-coverage="100% (4/4)" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="145" hits="18" branch="false" />
+            <line number="147" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="148" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+            <line number="152" hits="2" branch="false" />
+            <line number="155" hits="12" branch="false" />
+            <line number="156" hits="12" branch="true" condition-coverage="50% (1/2)" />
+            <line number="157" hits="0" branch="false" />
+            <line number="158" hits="0" branch="false" />
+            <line number="161" hits="12" branch="false" />
+            <line number="163" hits="252" branch="true" condition-coverage="100% (2/2)" />
+            <line number="164" hits="108" branch="false" />
+            <line number="165" hits="154" branch="true" condition-coverage="100% (2/2)" />
+            <line number="166" hits="145" branch="true" condition-coverage="100% (2/2)" />
+            <line number="167" hits="133" branch="true" condition-coverage="100% (2/2)" />
+            <line number="168" hits="108" branch="false" />
+            <line number="170" hits="12" branch="false" />
+            <line number="171" hits="12" branch="false" />
+            <line number="174" hits="12" branch="false" />
+            <line number="177" hits="24" branch="true" condition-coverage="100% (2/2)" />
+            <line number="178" hits="12" branch="false" />
+            <line number="179" hits="12" branch="false" />
+            <line number="180" hits="12" branch="false" />
+            <line number="181" hits="12" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="TicTacTotallyAwesome.Test" line-rate="0.9846153846153847" branch-rate="1" complexity="8">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\matt.hudson\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="TicTacTotallyAwesome.Test.UnitTest1" filename="C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome.Test\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="CalculateWinner_DiagonalWinner_ExpectWinnerEvaluation" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="27" hits="2" branch="false" />
+                <line number="28" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="CalculateWinner_RowWinner_ExpectWinnerEvaluation" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="3" branch="false" />
+                <line number="42" hits="3" branch="false" />
+                <line number="43" hits="3" branch="false" />
+                <line number="45" hits="3" branch="false" />
+                <line number="46" hits="3" branch="false" />
+                <line number="48" hits="3" branch="false" />
+                <line number="50" hits="3" branch="false" />
+                <line number="51" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="MiddleCellNotEmpty_ColumnWinner_ExpectWinnerEvaluation" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="3" branch="false" />
+                <line number="65" hits="3" branch="false" />
+                <line number="66" hits="3" branch="false" />
+                <line number="68" hits="3" branch="false" />
+                <line number="69" hits="3" branch="false" />
+                <line number="71" hits="3" branch="false" />
+                <line number="73" hits="3" branch="false" />
+                <line number="74" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="MiddleCellEmpty_ColumnWinner_ExpectWinnerEvaluation" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AllCellsFull_NoWinner_ExpectTiedGame" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="CellEmpty_NoWinner_ExpectGameInProgress" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="110" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="117" hits="1" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="122" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AllEmptyCells_NoWinner_ExpectGameInProgress" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="126" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+                <line number="133" hits="1" branch="false" />
+                <line number="135" hits="1" branch="false" />
+                <line number="137" hits="1" branch="false" />
+                <line number="138" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="27" hits="2" branch="false" />
+            <line number="28" hits="2" branch="false" />
+            <line number="41" hits="3" branch="false" />
+            <line number="42" hits="3" branch="false" />
+            <line number="43" hits="3" branch="false" />
+            <line number="45" hits="3" branch="false" />
+            <line number="46" hits="3" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="50" hits="3" branch="false" />
+            <line number="51" hits="3" branch="false" />
+            <line number="64" hits="3" branch="false" />
+            <line number="65" hits="3" branch="false" />
+            <line number="66" hits="3" branch="false" />
+            <line number="68" hits="3" branch="false" />
+            <line number="69" hits="3" branch="false" />
+            <line number="71" hits="3" branch="false" />
+            <line number="73" hits="3" branch="false" />
+            <line number="74" hits="3" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="110" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="117" hits="1" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="122" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="133" hits="1" branch="false" />
+            <line number="135" hits="1" branch="false" />
+            <line number="137" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

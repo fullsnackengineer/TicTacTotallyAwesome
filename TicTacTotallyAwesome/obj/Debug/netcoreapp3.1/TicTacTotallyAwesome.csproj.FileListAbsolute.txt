@@ -1,0 +1,13 @@
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\bin\Debug\netcoreapp3.1\TicTacTotallyAwesome.exe
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\bin\Debug\netcoreapp3.1\TicTacTotallyAwesome.deps.json
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\bin\Debug\netcoreapp3.1\TicTacTotallyAwesome.runtimeconfig.json
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\bin\Debug\netcoreapp3.1\TicTacTotallyAwesome.runtimeconfig.dev.json
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\bin\Debug\netcoreapp3.1\TicTacTotallyAwesome.dll
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\bin\Debug\netcoreapp3.1\TicTacTotallyAwesome.pdb
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.AssemblyInfoInputs.cache
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.AssemblyInfo.cs
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.csproj.CoreCompileInputs.cache
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.dll
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.pdb
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.genruntimeconfig.cache
+C:\Users\matt.hudson\source\repos\TicTacTotallyAwesome\TicTacTotallyAwesome\obj\Debug\netcoreapp3.1\TicTacTotallyAwesome.csproj.AssemblyReference.cache
